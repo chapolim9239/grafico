@@ -51,3 +51,8 @@ yaxis: {
 
 const grafico = document.createElement('div')
 grafico.className ='grafico'
+document.getElementById('graficos-container').appendChild(grafico)
+plotly.newplot(grafico,data,laytout)
+}
+
+quantidadeusuariosporede()
